@@ -1,4 +1,4 @@
-# STDA-Net: SSpectrogram-Based Domain Adaptation for cross-dataset Sleep Stage Classificationn
+# STDA-Net: Spectrogram-Based Domain Adaptation for cross-dataset Sleep Stage Classification
 
 This repository contains a clean implementation of **STDA-Net**, a spectrogram-based temporal domain adaptation framework for cross-dataset EEG sleep stage classification.
 
