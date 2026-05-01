@@ -1,0 +1,40 @@
+source_dir: "SleepDA_Spectrograms/SleepEDF"
+target_dir: "SleepDA_Spectrograms/SHHS1"
+
+source_subject_list: null
+target_subject_list: null
+
+epochs: 100
+patience: 10
+batch_size: 4
+lr: 0.0003
+weight_decay: 0.0001
+
+seq_len: 10
+stride: 5
+
+feature_dim: 128
+lstm_hidden: 128
+lstm_layers: 2
+dropout: 0.3
+disc_dropout: 0.3
+aux_weight: 0.5
+max_grad_norm: 1.0
+
+source_train_ratio: 0.6
+source_val_ratio: 0.2
+source_test_ratio: 0.2
+target_train_ratio: 0.6
+target_val_ratio: 0.2
+target_test_ratio: 0.2
+
+trim_wake_ratio: 2.0
+per_image_norm: false
+
+monitor: f1_macro
+num_runs: 1
+seed: 42
+split_seed: 42
+workers: 4
+max_source_subjects: null
+max_target_subjects: null

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Data and generated files
+data/*
+!data/README.md
+results/*
+!results/README.md
+outputs/
+output*/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.edf
+*.xml
+
+# Logs and outputs
+*.log
+*.csv
+
+# System and IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

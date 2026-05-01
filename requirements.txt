@@ -1,0 +1,7 @@
+numpy
+scipy
+mne
+torch
+scikit-learn
+matplotlib
+PyYAML

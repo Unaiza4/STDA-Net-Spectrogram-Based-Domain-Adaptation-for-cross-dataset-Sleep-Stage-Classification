@@ -1,0 +1,21 @@
+dataset: all   # sleepedf, shhs1, shhs2, or all
+
+sleepedf_dir: "path/to/sleep-edf/sleep-cassette"
+shhs_edf_dir: "path/to/shhs/edf"
+shhs_label_dir: "path/to/shhs/labels"
+
+output_root: "SleepDA_Spectrograms"
+
+max_subjects: null
+
+preprocessing:
+  target_fs: 100
+  epoch_sec: 30
+  wake_edge_minutes: 30
+
+spectrogram:
+  n_fft: 256
+  win_sec: 2.0
+  overlap: 0.5
+  db_min: -80.0
+  db_max: 0.0
