@@ -1,5 +1,5 @@
 source_dir: "SleepDA_Spectrograms/SleepEDF"
-target_dir: "leepDA_Spectrograms/SHHS1"
+target_dir: "SleepDA_Spectrograms/SHHS1"
 
 variant: A6   # A1, A2, A3, A4, A5, or A6
 
